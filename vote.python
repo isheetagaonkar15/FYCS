@@ -1,0 +1,10 @@
+current_year = 2023  
+
+birth_year = int(input("Enter your birth year: "))
+age = current_year - birth_year
+
+if age >= 18:
+    print("You are eligible to vote!")
+else:
+    print("You are not yet eligible to vote.")
+
