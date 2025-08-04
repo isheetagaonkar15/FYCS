@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/primary"
+        app:titleTextColor="@color/white" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Contact Support"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:layout_marginBottom="24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Get help from our support team"
+                android:textSize="16sp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="32dp" />
+
+            <!-- Call Support -->
+            <Button
+                android:id="@+id/buttonCall"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Call Support"
+                android:textSize="16sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_call"
+                android:drawablePadding="8dp" />
+
+            <!-- Email Support -->
+            <Button
+                android:id="@+id/buttonEmail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Email Support"
+                android:textSize="16sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/primary"
+                android:textColor="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_email"
+                android:drawablePadding="8dp" />
+
+            <!-- WhatsApp Support -->
+            <Button
+                android:id="@+id/buttonWhatsApp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="WhatsApp Support"
+                android:textSize="16sp"
+                android:background="@drawable/rounded_button"
+                android:backgroundTint="@color/green"
+                android:textColor="@color/white"
+                android:padding="16dp"
+                android:layout_marginBottom="16dp"
+                android:drawableStart="@drawable/ic_whatsapp"
+                android:drawablePadding="8dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

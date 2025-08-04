@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Farmer App</string>
+    <string name="settings">Settings</string>
+    <string name="profile">Profile</string>
+    <string name="language">Language</string>
+    <string name="support">Support</string>
+    <string name="logout">Logout</string>
+</resources>
